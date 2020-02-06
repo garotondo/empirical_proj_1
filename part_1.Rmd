@@ -1,0 +1,42 @@
+---
+title: "Empirical Project 1 Part 1"
+author: "Grace Rotondo"
+date: "2/5/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ggplot2)
+library(DT)
+library(janitor)
+library(tidyverse)
+```
+
+## Question 1
+Examine the patterns for a number of different groups (e.g., lowest income children, high income children) and outcomes (e.g., earnings in adulthood, incarceration rates), but only choose one or two of these to include in your project. Describe what you see, and what data are being visualized.
+
+Incarceration rate for all parent income: less than 1%
+% staying in same community zone as adults: 46%
+Household income for white female of low parent income: $47k
+Household income for white female of middle parent income: $55k
+Household income for white female of high parent income: $64k
+Individual income (excluding spouse) for white children of any parent income: $44k
+Individual income (excluding spouse) for white females of any low parent income:$56k
+Individual income (excluding spouse) for white females of any middle parent income: $52k
+Individual income (excluding spouse) for white females of any high parent income: $48k
+College graduation rate of white females of high parent income: 65%
+College graduation rate of white females of middle parent income: 52%
+College graduation rate of white females of low parent income: 45%
+
+
+## Question 2
+Hypothesis: College graduation rates of white females in Alexandria, Virginia slightly drop depending on the parents' income. E.g. there is a lower college graduation rate of white females coming from a family where the parents had low income, than there is of white females coming from a family where the parents had middle income, and then high income. The household income variable followed the same trend as college graduation. Interestingly, individual income of white females increased as their parental income decreased.
+
+```{r}
+
+```
+
