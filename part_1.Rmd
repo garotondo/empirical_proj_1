@@ -36,7 +36,13 @@ College graduation rate of white females of low parent income: 45%
 ## Question 2
 Hypothesis: College graduation rates of white females in Alexandria, Virginia slightly drop depending on the parents' income. E.g. there is a lower college graduation rate of white females coming from a family where the parents had low income, than there is of white females coming from a family where the parents had middle income, and then high income. The household income variable followed the same trend as college graduation. Interestingly, individual income of white females increased as their parental income decreased.
 
+## Question 3
 ```{r}
+atlas <- read_csv("atlas.csv")
 
+Q3 <- atlas %>% 
+  select(kfr_pooled_pooled_p25)
+
+Q3
 ```
 
